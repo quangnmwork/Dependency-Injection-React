@@ -1,6 +1,6 @@
 export interface IToken<T> {
   readonly debugName: string;
-  readonly surrogate: T;
+  readonly surrogate?: T;
   readonly toString: () => string;
 }
 
